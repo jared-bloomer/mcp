@@ -1,0 +1,20 @@
+# GitHub Configuration
+# Copy to github.toml and configure
+# DO NOT put actual tokens in this file - use environment variables
+
+[github]
+# Environment variable name containing the token (NOT the token itself)
+token_env = "GITHUB_TOKEN"
+
+# API configuration
+api_version = "2022-11-28"
+base_url = "https://api.github.com"
+
+# Default settings
+default_owner = ""  # Optional: your GitHub username
+per_page = 30       # Results per page (max 100)
+
+# Rate limiting
+respect_rate_limits = true
+retry_on_rate_limit = true
+max_retries = 3

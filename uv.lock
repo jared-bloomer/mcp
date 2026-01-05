@@ -457,6 +457,8 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "fastmcp" },
+    { name = "httpx" },
+    { name = "pydantic-settings" },
 ]
 
 [package.optional-dependencies]
@@ -470,7 +472,9 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "fastmcp", specifier = ">=2.0,<3" },
+    { name = "httpx", specifier = ">=0.27" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.13" },
+    { name = "pydantic-settings", specifier = ">=2" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
     { name = "pytest-asyncio", marker = "extra == 'dev'", specifier = ">=0.24" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.8" },

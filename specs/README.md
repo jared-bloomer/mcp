@@ -6,7 +6,8 @@ This directory contains specification documents for the MCP server project.
 
 | ID | Name | Status | Description |
 |----|------|--------|-------------|
-| [001](001-project-setup.md) | Project Setup | Draft | Initial project structure, tech stack, and configuration |
+| [001](001-project-setup.md) | Project Setup | Implemented | Initial project structure, tech stack, and configuration |
+| [002](002-github-integration.md) | GitHub Integration | Draft | GitHub API tools with secure credential management |
 
 ## Naming Convention
 
